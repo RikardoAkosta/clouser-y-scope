@@ -28,3 +28,9 @@ myMoneyBox(4);
 myMoneyBox(6);
 myMoneyBox(10);
 /* en este ejemplo si recuerda el valor anterior o el ambito anterior  */
+
+
+
+const helloWorld = () => { globalVar = "I'm global"; } 
+helloWorld();
+console.log(globalVar);
